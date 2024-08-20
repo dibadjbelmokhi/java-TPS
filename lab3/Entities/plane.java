@@ -1,13 +1,13 @@
-package Entities;
+
 public class plane{
     private String brand;
     private final String model;
-    private  final Double capacity;
+    private  final int capacity;
     private final  int year;
-    public plane(String brand,String model,Double capacity,int year){
+    public plane(String brand,String model,int i,int year){
         this.brand=brand;
         this.model=model;
-        this.capacity=capacity;
+        this.capacity=i;
         this.year=year;
     }
     public String getBrand() {

@@ -1,4 +1,3 @@
-package Entities;
 public class passenger {
     private int passengernb;
     private String name;

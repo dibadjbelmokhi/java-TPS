@@ -1,29 +1,29 @@
-package program;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class flight {
-    private final int flightid;
-     private String plan;
-     private String pilo;
+    private final String flightid;
+     private plane p;
+     private pilot pilo;
      private String  depcity;
      private String arvcity;
-     private Date date;
-    public flight(int flightid,String plan, String pilo, String string, String string2, Date date) {
-        this.plan = plan;
+     private LocalDate date;
+    public flight(String flightid,plane p, pilot pilo, String depcity, String arvcity, LocalDate localDate) {
+        this.p = p;
         this.pilo = pilo;
         this.depcity = arvcity;
         this.arvcity = arvcity;
-        this.date = date;
+        this.date = localDate;
         this.flightid=flightid;
     }
     
     
 
-    public void setPlan(String plan) {
-        this.plan = plan;
+    public void setPlan(plane plan) {
+        this.p = plan;
     }
-    public void setPilo(String pilo) {
+    public void setPilo(pilot pilo) {
         this.pilo = pilo;
     }
     public void setDepcity(String  depcity) {
@@ -32,14 +32,14 @@ public class flight {
     public void setArvcity(String  arvcity) {
         this.arvcity = arvcity;
     }
-    public void setDate(Date date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
    
-    public String getPlan() {
-        return plan;
+    public plane getPlan() {
+        return p;
     }
-    public String getPilo() {
+    public pilot getPilo() {
         return pilo;
     }
     public String  getDepcity() {
@@ -48,7 +48,7 @@ public class flight {
     public String  getArvcity() {
         return arvcity;
     }
-    public Date getDate() {
+    public LocalDate  getDate() {
         return date;
     }
      
