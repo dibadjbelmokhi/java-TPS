@@ -4,10 +4,10 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-        Owner o1=new Owner("dibadj", "belmokhi", "mouna2n36");
-        Owner o2=new Owner("abdou", "brahmia", "1200elkhrube");
-        Tenant t1=new Tenant("diba", "dudu", "wedelehed");
-        Tenant t2=new Tenant("dia", "duu", "wedelehed"); 
+        Owner o1=new Owner("dudu", "bel", "hayriyad");
+        Owner o2=new Owner("abdou", "br", "1200elkhrube");
+        Tenant t1=new Tenant("da", "dudu", "wedelehed");
+        Tenant t2=new Tenant("dia", "duu", "wedq!elehed"); 
        Villa v1=new Villa("lux", "algeria", 4, true);
        Apartment ap1=new Apartment("F4", "jijel", 2, 2);
        Studio s1=new Studio("babelkantra", "constantine", 1, true);
@@ -20,3 +20,5 @@ public class Main {
      
     }
 }
+
+
